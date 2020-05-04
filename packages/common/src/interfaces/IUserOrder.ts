@@ -26,6 +26,7 @@ interface IUserOrder
 	geoLocation: IGeoLocation;
 	devicesIds: string[];
 	readonly fullAddress: string;
+}{
 }
 
 export default IUserOrder;
